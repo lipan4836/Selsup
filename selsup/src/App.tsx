@@ -118,12 +118,13 @@ const App = () => {
 
   return (
     <div className="container">
+      <h1>Редактор Модели</h1>
       <ParamEditor
         ref={paramEditorRef}
         params={exampleParams}
         model={exampleModel}
       />
-      <button onClick={handleGetModel}>Log Model</button>
+      <button onClick={handleGetModel}>Логировать Модель</button>
     </div>
   );
 };
